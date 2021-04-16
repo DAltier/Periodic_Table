@@ -1,0 +1,152 @@
+*
+{
+    padding: 0px;
+    margin: 0px auto;
+    border: 0 none;
+    padding: 0;
+    list-style: none;
+}
+
+/*Container*/
+div.container {
+    width: 1046px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    background-color: rgb(238, 238, 238);
+    margin: auto;
+    padding: 0 10px 10px 10px;
+    font: 8pt sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/*Group Numbers*/
+div.container .header {
+    display: flex;
+}
+
+div.container .header li:first-child {
+    height: 30px;
+    margin-top: 20px;
+    line-height: 15px;
+}
+
+/*Period Numbers*/
+div.container .period {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    width: 54px;
+    height: 378px;
+}
+
+/*Red Text Styling*/
+div.container .header li, .period li, .labels li {
+    color: #FE0303;
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    margin: 0 2px 2px 0;
+    line-height: 50px;
+}
+
+/*Element Symbols Styling*/
+div.container span.element {
+    font: bold 12pt sans-serif;
+    color: #1913A2;
+    display: block;
+}
+
+/*Blue Elements*/
+div.container .blue {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    width: 108px;
+    height: 378px;
+}
+
+div.container .blue li {
+    background-color: #689bff;
+    border: 1px solid #878787;
+    margin: 0 2px 2px 0;
+    padding-top: 3px;
+    width: 50px;
+    height: 47px;
+}
+
+/*Pink Elements*/
+div.container .pink {
+    width: 540px;
+    height: 216px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+div.container .pink li {
+    background-color: #fd9a98;
+    border: 1px solid #878787;
+    margin: 0 2px 2px 0;
+    padding-top: 3px;
+    width: 50px;
+    height: 47px;
+}
+
+/*Yellow Elements*/
+div.container .yellow {
+    height: 378px;
+    width: 324px;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: flex-end;
+}
+
+div.container .yellow li {
+    background-color: #fecb00;
+    border: 1px solid #878787;
+    margin: 0 2px 2px 0;
+    padding-top: 3px;
+    width: 50px;
+    height: 47px;
+}
+
+/*Labels for Green Elements*/
+div.container .labels {
+    margin: 20px 0 0 20px;
+    height: 108px;
+    width: 142px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+div.container .labels li {
+    width: 100px;
+    margin: 0 2px 2px 0;
+    height: 50px;
+}
+
+div.container .labels li:nth-child(3), .labels li:nth-child(4) {
+    width: 100px;
+    text-align: right;
+}
+
+/*Green Elements*/
+div.container .green {
+    margin-top: 20px;
+    height: 108px;
+    width: 756px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+div.container .green li {
+    background-color: #1fca21;
+    border: 1px solid #878787;
+    margin: 0 2px 2px 0;
+    padding-top: 3px;
+    width: 50px;
+    height: 47px;
+}
